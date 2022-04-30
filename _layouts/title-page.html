@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<header>
+	<table style="width: 100%; margin-bottom: 20px">
+        <tbody style="border-top: 0; border-bottom: 1px solid #e8e8e8">
+        <tr style="border: none;">
+            <td rowspan="2" align ="left" style="width: 85px; min-width: 85px;">
+                <img style="height: 85px; width: 85px;" src="{{ page.rel_root }}/app-icon.png" alt="" height="190" width="190"/>
+            </td>
+            <td align ="left" style="padding: 10px 10px 0px 10px;">
+                <h1 style="font-weight: bold; font-size: 30px; color: black; margin-top: 10px; margin-bottom: 15px; line-height: 35px"><a name="title-page"></a>{{ page.apple_title }}</h1>
+            </td>
+        </tr>
+        <tr style="border: none">
+            <td align ="left">
+                <!-- Add a toggle sidebar button -->
+                <a style="display: inline-block; vertical-align:middle; line-height:15px; margin-left: 10px; margin-bottom: 15px; text-align: left;" href="javascript:void(0)" onClick="toggleBanner();">Table of Contents
+                    <img style="width: 15px; height: 15px; float: left; margin-right: 10px" src="{{ page.rel_root }}/sidebar.png" alt="" height="190" width="190"/>
+                </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</header>
+
+
+
+{{ content }}
