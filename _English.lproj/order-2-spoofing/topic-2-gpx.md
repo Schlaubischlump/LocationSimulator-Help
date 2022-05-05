@@ -1,6 +1,7 @@
 ---
 title: Load a GPX file
 group: Location spoofing
+order: 1
 ---
 
 LocationSimulator can start a navigation based on a GPX file. To open an existing GPX file choose `File` → `Open GPX file…`. A popup will appear which allows you to select the file. If the file contains more than one route information, you can select the desired one.

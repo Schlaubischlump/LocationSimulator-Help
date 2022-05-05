@@ -1,6 +1,7 @@
 ---
 title: Spoof your location
 group: Get started
+order: 2
 ---
 
 To spoof your device location, a device has to be [selected](topic-1-select-device.html) and the *DeveloperDiskImage* files have to be [uploaded](topic-2-developerdiskimage.html) in case of a real iOS device. You should now see a map view on the right side of the window. To set an initial location, long click somewhere on the map. A blue *current location marker* will appear. The location on you device is now changed to the location you just selected.

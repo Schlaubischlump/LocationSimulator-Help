@@ -1,6 +1,7 @@
 ---
 title: Select a device
 group: Get started
+order: 0
 ---
 
 If you open LocationSimulator for the first time you will be greeted by an empty screen, with no device selected. The sidebar on the left side of the window will be expanded and list all your currently connected devices. 

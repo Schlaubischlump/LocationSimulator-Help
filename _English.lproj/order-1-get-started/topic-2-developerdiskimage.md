@@ -1,6 +1,7 @@
 ---
 title: The DeveloperDiskImage
 group: Get started
+order: 1
 ---
 
 The *DeveloperDiskImage.dmg* and the corresponding *DeveloperDiskImage.dmg.signature* files are required to interact with an iOS device. The first time you connect your iOS device while LocationSimulator is active, an automatic download process is initiated to save these files to your Mac. A new download is only required, if you update your iOS device or if you delete the files. If required, the *DeveloperDiskImage.dmg* files will be uploaded automatically to your iOS device afterwards. Once these files have been uploaded successfully everything will work without uploading them again until you reboot your iOS device.

@@ -1,6 +1,7 @@
 ---
 title: Start a navigation
 group: Location spoofing
+order: 0
 ---
 
 If you select a new coordinate, while you already set a current location you will be asked if you want to navigate to the new location. If you choose this option, the route to the destination coordinates will be calculated and the location is automatically updated to follow the route. The dark blue path indicates the way you already traveled along. The light blue path is the upcoming route.

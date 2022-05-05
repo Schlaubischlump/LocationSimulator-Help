@@ -21,7 +21,7 @@
 	<key>HPDBookAccessPath</key>
 	<string>index.html</string>
 	<key>HPDBookIconPath</key>
-	<string>book-icon.png</string>
+	<string>app-icon.png</string>
 	<key>HPDBookIndexPath</key>
 	<string>search.helpindex</string>
 	<key>HPDBookTitle</key>

@@ -1,6 +1,7 @@
 ---
 title: DiskImages
 group: Preferences
+order: 0
 ---
 
 In the *DiskImages* preferences pane you can manage all downloaded *DeveloperDiskImage* files. You can enable a custom support directory to change the folder the *DeveloperDiskImage* files are saved to.
