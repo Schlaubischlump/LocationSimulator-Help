@@ -5,7 +5,7 @@ apple_title: LocationSimulator User Guide
 anchor: title-page
 menu_exclude: false
 robots: anchors
-group_order: {"Get started": 0, "Location spoofing": 1, "Preferences": 2}
+group_order: {"Get started": 0, "Location spoofing": 1, "Preferences": 2, "AppleScript": 4}
 ---
 
 For the most common questions take a look at the [frequently asked question (FAQ)](order-last-faq/faq.html).
