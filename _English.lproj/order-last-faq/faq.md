@@ -39,3 +39,31 @@ order: 1000
 </details>
 
 ---
+
+<details>
+	<summary>I keep getting `Error changing location` ?</summary>
+	<span markdown="1">If you are using iOS 16.0 or later make sure that you activated [Developer Mode](https://developer.apple.com/documentation/xcode/enabling-developer-mode-on-a-device). If this does not fix your problem, you most likely used the wrong *DeveloperDiskImage* or it got somehow corrupted. Note, that each time you change the *DeveloperDiskImage* in LocationSimulator you must reboot your iOS device. Otherwise the new *DeveloperDiskImage* ist not used. You can try the following solutions to fix corrupted *DeveloperDiskImages*.    
+    
+**A. First solution:**    
+1. Turn off your iOS device completely (slide to power off)    
+2. Open LocationSimulator    
+3. Open `Preferences…` &rarr; `DiskImages` &rarr; `iPhoneOS`    
+4. If your iOS version appears in the list, select the entry and click the `⟳` button, if not skip to 6    
+5. A new download should now be initiated     
+6. Turn on your iOS device    
+7. Try to use LocationSimulator    
+    
+**B. Second solution:**    
+1. Turn off your iOS device completely (slide to power off)    
+2. Install the latest version of `Xcode.app` or `Xcode-beta.app`    
+3. Open ```/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/YOUR_IOS_VERSION/``` in Finder    
+4. Open LocationSimulator    
+5. Open `Preferences…` &rarr; `DiskImages` &rarr; `iPhoneOS`    
+6. Click the `+` button and add the files you opened in finder. For `version` enter your iOS version, e.g. 16.0    
+7. A a new entry with your iOS version appears in the list    
+8. Turn on your iOS device    
+9. Try to use LocationSimulator    
+</span>
+</details>
+
+---
