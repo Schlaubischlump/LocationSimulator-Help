@@ -1,7 +1,7 @@
 ---
-title: Examples
+title: Headless Examples
 group: AppleScript
-order: 1
+order: 2
 ---
 
 **List all devices**
